@@ -26,9 +26,9 @@ const imageData = [
 function App() {
   return (
     <div>
-
+      {/* gallery header added */}
       <GallaryHeader/>
-
+      {/* gallery body added */}
       <GalleryBody  img = {imageData} />
       {/* adding footer component */}
       <GallaryFooter/> 
